@@ -1,5 +1,6 @@
 # UAS-PENGCIT
-Proyek di atas adalah contoh implementasi pemrosesan citra untuk menghasilkan citra tersegmentasi dengan menggunakan teknik thresholding dan contouring. Berikut adalah teori yang mendukung langkah-langkah dalam proyek ini:
+Proyek yang dibuat adalah contoh implementasi pemrosesan citra untuk menghasilkan citra tersegmentasi dengan menggunakan teknik thresholding dan contouring. 
+1. Berikut adalah teori yang mendukung langkah-langkah dalam proyek ini:
 
 Membaca Gambar: Gunakan fungsi cv2.imread() untuk membaca gambar dari file yang ditentukan dan menyimpannya dalam variabel img. Citra tersebut akan dibaca dalam mode BGR (Blue-Green-Red).
 
@@ -23,7 +24,7 @@ Menampilkan Citra: Menggunakan matplotlib.pyplot untuk menampilkan citra asli da
 
 Dengan mengikuti langkah-langkah ini, Anda dapat memuat gambar, mengubahnya menjadi citra grayscale, menerapkan Gaussian blur, melakukan thresholding, mencari kontur, memilih kontur terbesar, membuat maska, menerapkan maska ke citra asli, dan menampilkan citra asli dan tersegmentasi secara berdampingan.
 
-Berikut adalah tahapan-tahapan rinci untuk menyelesaikan proyek deteksi kontur dan segmentasi citra dengan OpenCV:
+2. Berikut adalah tahapan-tahapan rinci untuk menyelesaikan proyek deteksi kontur dan segmentasi citra dengan OpenCV:
 
 Impor Libraries: Impor library yang diperlukan, yaitu cv2, numpy, dan matplotlib.pyplot.
 
